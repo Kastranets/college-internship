@@ -3,6 +3,7 @@ def maximum(x, y):
 
 def minimum(x, y):
     return x if x < y else y
+
 def maxmin(x, y):
     return [maximum(x, y), minimum(x, y)]
 
